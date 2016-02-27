@@ -73,7 +73,7 @@ public class Upload extends HttpServlet {
                     }
 
                     if (!filename.isEmpty() && !(upfile == null)) {
-                        connect.uploadFile("Santeria", filename, upfile);
+                        connect.uploadFile("sample", filename, upfile);
                     }
                 } catch (Exception e) {
                 }
